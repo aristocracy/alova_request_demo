@@ -1,0 +1,20 @@
+@theme-color:#1890ff;
+.beauty-scroll{
+    scrollbar-color: rgb(52,134,255);
+    scrollbar-width: 5px;
+    -ms-overflow-style:none;
+    position: relative;
+    &::-webkit-scrollbar{
+      width: 5px;
+      height: 1px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: rgb(204,204,204);
+    }
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 1px rgba(255,255,255,0);
+      border-radius: 5px;
+      background: rgb(255, 255, 255);
+    }
+}
